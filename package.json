@@ -1,0 +1,25 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm install inherits && mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "inherits": "^2.0.4",
+    "mocha": "^9.1.4",
+    "ms": "^2.1.3"
+  }
+}
